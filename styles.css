@@ -9,9 +9,6 @@
     background-color: #040404;
     color: white;
 }
-.pr{
-    max-width: 240px;
-}
 header{
     display: flex;
     align-items: center;
@@ -19,6 +16,76 @@ header{
 }
 .header-p{
     font-weight: 400;
+}
+.descricao-p{
+    max-width: 240px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projeto{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.paragrafo{
+    max-width: 400px;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato-h{
+    padding-bottom: 150px;
+}
+.contato-item{
+    display: flex;
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+.contato-item p{
+    margin-left: 40px;
+    font-size: 1.1em;
+    color: white;
+}
+.subir{
+    padding: 50px 0px;
+}
+.subir-p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.subir-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.footer-footer{
+    padding: 20px;
+    background-color: #3E3636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-footer p, .contato-item p {
+    font-family: 'Poppins', sans-serif;
 }
 button{
     background-color: #040404;
@@ -37,23 +104,11 @@ h2{
     padding: 100px 0px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    font-size: 2em;
 }
 h3{
     text-align: center;
     font-size: 1.3em;
-}
-.cn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.quebrar{
-    display: flex;
-    padding-bottom: 30px;
-}
-.quebrar p{
-    padding-left: 40px;
-    font-size: 1.1em;
 }
 .svg{
     height: 30px;
@@ -67,26 +122,33 @@ img{
     height: 300px;
     width: 250px;
 }
-.agrupar{
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 200px;
+span{
+    color: #4E3A99;
+    font-weight: 700;
 }
-.paragrafo{
-    max-width: 400px;
-    font-size: 1.1em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-
+.svg1{
+    height: 50px;
+    width: 50px;
 }
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+.svg2{
+    height: 17px;
+    width: 17px;
+    margin-right: 10px;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contato-item p:hover{
+    text-decoration: underline white 1px;
+}
+.subir-p:hover{
+    text-decoration: underline white 1px;
+}
+@media(max-width: 900px){
+    .projeto{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    header{
+        flex-direction: column;
+    }
 }
