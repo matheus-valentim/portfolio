@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +7,11 @@
 }
 .wrapper{
     background-color: #040404;
-    height: 100vh;
     color: white;
 }
-
+.pr{
+    max-width: 240px;
+}
 header{
     display: flex;
     align-items: center;
@@ -22,7 +23,7 @@ header{
 button{
     background-color: #040404;
     color: white;
-    border: 1px solid #EA86A5;
+    border: 2px solid #EA86A5;
     padding: 3px 15px;
     border-radius: 7px;
 }
@@ -31,7 +32,61 @@ h1{
     max-width: 450px;
     padding-bottom: 30px;
 }
+h2{
+    text-align: center;
+    padding: 100px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+h3{
+    text-align: center;
+    font-size: 1.3em;
+}
+.cn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quebrar{
+    display: flex;
+    padding-bottom: 30px;
+}
+.quebrar p{
+    padding-left: 40px;
+    font-size: 1.1em;
+}
+.svg{
+    height: 30px;
+    width: 30px;
+}
 svg{
     height: 500px;
     width: 500px;
+}
+img{
+    height: 300px;
+    width: 250px;
+}
+.agrupar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+}
+.paragrafo{
+    max-width: 400px;
+    font-size: 1.1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
