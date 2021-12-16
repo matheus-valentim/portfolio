@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/*elementos simples*/
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;}
+p {
+    font-family: 'poppins';
+    padding: 0.2em;
+    font-weight: 500;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 0 0 6px blue;
+}
+h2:not(footer h2) {
+    border-bottom: 0.2px solid blanchedalmond;
+}
+p, .navbar a, footer a {
+    font-size: 1.2em;
+}
+/*navbar*/
+.navbar {
+    width: 100%;
+    background: #1b2035bd;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar label, #hamburger {
+    display: none; 
+}
+.itens { 
+    display:flex;
+}
+.itens a {
+    padding: 1em 2em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+  }
+.itens a:hover {
+    background: #1b2035bd;
+}
+.logo {
+    height: 65px;
+    width: 65px;
+    margin-left: 1.2em;
+}
+/*header*/
+header {
+    height: 50vh;
+    width: 100%;  
+    color: white;
+    grid-area: banner;
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+    justify-content: center;
+}
+header p {
+    font-weight: 300;
+}
+/*background*/
+body {
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url(imagens/space.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+/*container*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.8fr 0.8fr 0.8fr 0.8 0.5fr;
+    grid-template-areas:
+    "banner banner"
+    "pythonjsicon js"
+    "pythoncontent webicon"
+    "conteudoweb ingles"
+    " footer footer";
+    }
+.container a {
+    text-decoration: none;
+}
+.pythonjscontainer {
+    grid-area: pythonjsicon;
+    border-left: 0.1em solid white;
+    border-top: 0.1em solid white;
+}
+.pythoncontent {
+    grid-area: pythoncontent;
+    text-align: justify;
+    border-left: 0.1em solid white;
+    border-bottom: 0.1em solid white;
+    border-left: 0.1em solid white;
+    border-right:0.1em solid white;
+}
+
+.js {
+    grid-area: js;
+    border-top: 0.1em solid white;
+    border-right:0.1em solid white;
+}
+.ingles {
+    grid-area: ingles;
+    text-align: justify;
+    border-bottom: 0.1em solid white;
+}
+.conteudoweb {
+    grid-area: conteudoweb;
+    text-align: justify;
+    border-left: 0.1em solid white;
+    border-top: 0.1em solid white;
+    border-bottom: 0.1em solid white;
+}
+.webicon {
+    grid-area: webicon;
+    border-top: 0.1em solid white;
+}
+/*footer*/
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b203560;
+}
+footer nav {
+    display: flex;
+    flex-flow: column;
+}
+footer a{
+    margin: 0.5em;
+    font-family: sans-serif;
+}
+footer h2 {
+    margin-top: 0.2em;
+}
+.email-svg {
+    width: 2.5em;
+    height: 2.5em;
+}
+/*efeitos container*/
+.conteinercontent1, .conteinercontent2, .conteinercontent3 {
+    margin: 5.5em;
+    border-radius: 15px;
+    box-shadow: -6px -6px 6px #545c8c, 10px 10px 10px rgba(000, 000, 000, 0.123);
+    text-align: center;
+    padding: 0.3em;
+}
+.conteinercontent4, .conteinercontent5, .conteinercontent6 {
+    margin: 5.5em;
+    border-radius: 15px;
+    box-shadow: -6px -6px 6px #545c8c, 10px 10px 10px rgba(000, 000, 000, 0.123);
+    text-align: center;
+    padding: 0.3em;
+}
+.conteinercontent1:hover, .conteinercontent2:hover, .conteinercontent3:hover {
+    transform: translateY(2em);
+    box-shadow: -8px -8px 32px 2px rgb(255, 255, 0),
+    10px 10px 10px blue;
+    transition: 0.3s;
+}
+.conteinercontent4:hover, .conteinercontent5:hover, .conteinercontent6:hover {
+    transform: translateY(2em);
+    box-shadow: -8px -8px 32px 2px orange,
+    10px 10px 10px blue;
+    transition: 0.3s;
+}
+@media only screen and (max-width: 790px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas: 
+    "banner"
+    "pythonjsicon"
+    "js"
+    "pythoncontent"
+    "webicon"
+    "conteudoweb"
+    "ingles"
+    "footer";
+    }
+    /*elementos simples*/
+    h1 {
+        font-size: 3em;
+    }
+    p {
+        font-weight: 300;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    p, .navbar a, footer a {
+       font-size: 0.8em;
+    }
+    /*navbar*/
+    .navbar label { 
+        display: inline-block; 
+        color: white;
+        background: #2d365867;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 0.9em;
+     }
+      .navbar {
+        display: block;
+    }
+      .logo {
+          display: none;
+      }
+      .itens a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+    }
+      .itens {
+          display: none;
+    }
+      .navbar input:checked ~ .itens {
+          display: block;
+    } /*conteiners*/
+    .js {
+        border-bottom: 0.1em solid white;
+    }
+    footer {
+        flex-flow: column;
+        text-align: center;
+    }
+}
