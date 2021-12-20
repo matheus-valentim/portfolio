@@ -48,6 +48,18 @@ header{
     width: 25px;
     height: 70px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.svg3{
+    height: 12px;
+    width: 12px;
+    margin-top: 10px;
+    animation-name: andar;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    position: relative;
 }
 /*Sobre mim*/
 .descricao-container1{
@@ -228,6 +240,11 @@ span{
     background-color: #040404;
     border: 1px solid #4E3A99;
 }
+@keyframes andar{
+    0%   {top:0px;}
+    50%  {top:35px;}
+    100% {top: 0px;}
+}
 @media(max-width: 850px){
     .projeto{
         display: flex;
@@ -265,6 +282,15 @@ span{
         margin-top: 30px;
         max-width: 120px;
 
+    }
+    .svg3{
+        margin-top: 3px;
+    }
+    
+    @keyframes andar{
+        0%   {top:0px;}
+        50%  {top:40px;}
+        100% {top: 0px;}
     }
 }
 @media (max-width: 1080px){
@@ -323,8 +349,8 @@ span{
     }
     .borda{
     border: 2px solid white;
-    width: 15px;
-    height: 50px;
+    min-width: 20px;
+    height: 60px;
     border-radius: 20px;
     }
     header{
