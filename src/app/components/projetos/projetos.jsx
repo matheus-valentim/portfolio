@@ -9,25 +9,33 @@ export default function Projetos() {
 			<section className={styles.container}>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/1.png" alt="" className={styles.imagem} />
+						<img src="/jiujitsu.png" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
-								<a href="#" target="_blank" className={styles.telaItem1}>
+								<a
+									href="https://github.com/matheus-valentim/jiu-jitsu-app"
+									target="_blank"
+									className={styles.telaItem1}
+								>
 									<img src="/github.svg" alt="" />
 									<p className={styles.p}>Github</p>
 								</a>
-								<a href="#" target="_blank" className={styles.telaItem}>
+								<a
+									href="https://jiu-jitsu-app.vercel.app"
+									target="_blank"
+									className={styles.telaItem}
+								>
 									<img src="/site.svg" alt="" />
 									<p className={styles.p}>Website</p>
 								</a>
 							</section>
 						</section>
 					</section>
-					<p className={styles.paragrafo}>TESTE 1</p>
+					<p className={styles.paragrafo}>App de campeonato de jiu jitsu</p>
 				</section>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/2.png" alt="" className={styles.imagem} />
+						<img src="/jiujitsu.png" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
 								<a href="#" target="_blank" className={styles.telaItem1}>
@@ -46,26 +54,34 @@ export default function Projetos() {
 			</section>
 			<section>
 				<section className={styles.arrasta}>
-					<img src="/3.png" alt="" className={styles.imagem} />
+					<img src="/dashboard.png" alt="" className={styles.imagem} />
 					<section className={styles.telaMeio}>
 						<section className={styles.telaContainer}>
-							<a href="#" target="_blank" className={styles.telaItem1}>
+							<a
+								href="https://github.com/matheus-valentim/dashboard"
+								target="_blank"
+								className={styles.telaItem1}
+							>
 								<img src="/github.svg" alt="" />
 								<p className={styles.p}>Github</p>
 							</a>
-							<a href="#" target="_blank" className={styles.telaItem}>
+							<a
+								href="https://dashboard-ten-chi.vercel.app"
+								target="_blank"
+								className={styles.telaItem}
+							>
 								<img src="/site.svg" alt="" />
 								<p className={styles.p}>Website</p>
 							</a>
 						</section>
 					</section>
 				</section>
-				<p className={styles.paragrafo}>TESTE 3</p>
+				<p className={styles.paragrafo}>Dashboard de e-commerce</p>
 			</section>
 			<section className={styles.container}>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/4.png" alt="" className={styles.imagem} />
+						<img src="/loja.png" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
 								<a href="#" target="_blank" className={styles.telaItem1}>
@@ -83,7 +99,7 @@ export default function Projetos() {
 				</section>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/5.png" alt="" className={styles.imagem} />
+						<img src="/validade.png" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
 								<a href="#" target="_blank" className={styles.telaItem1}>
