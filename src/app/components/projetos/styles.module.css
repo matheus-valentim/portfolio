@@ -20,6 +20,7 @@
 	cursor: pointer;
 	transition: 0.3s ease-in-out;
 	border: 1px solid white;
+	display: none;
 }
 .container {
 	display: flex;

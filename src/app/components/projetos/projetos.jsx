@@ -35,21 +35,21 @@ export default function Projetos() {
 				</section>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/jiujitsu.png" alt="" className={styles.imagem} />
+						<img src="/validade.png" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
-								<a href="#" target="_blank" className={styles.telaItem1}>
+								<a
+									href="https://github.com/matheus-valentim/Controle-de-validade"
+									target="_blank"
+									className={styles.telaItem1}
+								>
 									<img src="/github.svg" alt="" />
 									<p className={styles.p}>Github</p>
-								</a>
-								<a href="#" target="_blank" className={styles.telaItem}>
-									<img src="/site.svg" alt="" />
-									<p className={styles.p}>Website</p>
 								</a>
 							</section>
 						</section>
 					</section>
-					<p className={styles.paragrafo}>TESTE 2</p>
+					<p className={styles.paragrafo}>Controle de validade</p>
 				</section>
 			</section>
 			<section>
@@ -84,36 +84,31 @@ export default function Projetos() {
 						<img src="/loja.png" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
-								<a href="#" target="_blank" className={styles.telaItem1}>
+								<a
+									href="https://github.com/matheus-valentim/cms-teste"
+									target="_blank"
+									className={styles.telaItem1}
+								>
 									<img src="/github.svg" alt="" />
 									<p className={styles.p}>Github</p>
-								</a>
-								<a href="#" target="_blank" className={styles.telaItem}>
-									<img src="/site.svg" alt="" />
-									<p className={styles.p}>Website</p>
 								</a>
 							</section>
 						</section>
 					</section>
-					<p className={styles.paragrafo}>TESTE 4</p>
+					<p className={styles.paragrafo}>E-commerce roupa</p>
 				</section>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/validade.png" alt="" className={styles.imagem} />
+						<img src="/breve.png" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
-								<a href="#" target="_blank" className={styles.telaItem1}>
-									<img src="/github.svg" alt="" />
-									<p className={styles.p}>Github</p>
-								</a>
-								<a href="#" target="_blank" className={styles.telaItem}>
-									<img src="/site.svg" alt="" />
-									<p className={styles.p}>Website</p>
+								<a className={styles.telaItem1}>
+									<p className={styles.p}>EM BREVE</p>
 								</a>
 							</section>
 						</section>
 					</section>
-					<p className={styles.paragrafo}>TESTE 5</p>
+					<p className={styles.paragrafo}>EM BREVE</p>
 				</section>
 			</section>
 		</article>

@@ -103,13 +103,11 @@ export default function Hero() {
 			<article className={styles.hero}>
 				<section className={styles.container}>
 					<section>
-						<h1 className={styles.h1}>
-							Programador Front, Back e Arquiteto de BD
-						</h1>
+						<h1 className={styles.h1}>Programador Front, Back e Curioso</h1>
 						<p className={styles.p}>
-							Sou programador web com foco em front, brinco de fazer design e me
-							aventuro em backend, faço de tudo um pouco, como um pato, se eu
-							faço tudo direito? me chame pra uma call.
+							Sou programador web com foco em front, me aventuro em todas as
+							áreas, infra com aws, back com node, DB com mysql e estou no
+							quinto período de ciência da computação.
 						</p>
 					</section>
 					<section className={styles.iconContainer}>
