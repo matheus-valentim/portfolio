@@ -55,7 +55,7 @@ export default function Contato() {
 						</section>
 						<section className={styles.qrCode}>
 							<section className={styles.qrCodeContainer}>
-								<img src="/QRcode.png" alt="" />
+								<img src="/QRcode.avif" alt="" />
 								<small>Fale comigo acima pelo Whatsapp.</small>
 							</section>
 						</section>

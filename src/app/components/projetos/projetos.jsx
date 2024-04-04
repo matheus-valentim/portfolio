@@ -9,7 +9,7 @@ export default function Projetos() {
 			<section className={styles.container}>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/jiujitsu.png" alt="" className={styles.imagem} />
+						<img src="/jiujitsu.avif" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
 								<a
@@ -35,7 +35,7 @@ export default function Projetos() {
 				</section>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/validade.png" alt="" className={styles.imagem} />
+						<img src="/validade.avif" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
 								<a
@@ -54,7 +54,7 @@ export default function Projetos() {
 			</section>
 			<section>
 				<section className={styles.arrasta}>
-					<img src="/dashboard.png" alt="" className={styles.imagem} />
+					<img src="/dashboard.avif" alt="" className={styles.imagem} />
 					<section className={styles.telaMeio}>
 						<section className={styles.telaContainer}>
 							<a
@@ -81,7 +81,7 @@ export default function Projetos() {
 			<section className={styles.container}>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/Loja.png" alt="" className={styles.imagem} />
+						<img src="/Loja.avif" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
 								<a
@@ -99,7 +99,7 @@ export default function Projetos() {
 				</section>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/breve.png" alt="" className={styles.imagem} />
+						<img src="/breve.avif" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
 								<a className={styles.telaItem1}>
