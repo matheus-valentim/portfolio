@@ -81,7 +81,7 @@ export default function Projetos() {
 			<section className={styles.container}>
 				<section className={styles.containerItem}>
 					<section className={styles.arrasta}>
-						<img src="/loja.png" alt="" className={styles.imagem} />
+						<img src="/Loja.png" alt="" className={styles.imagem} />
 						<section className={styles.tela}>
 							<section className={styles.telaContainer}>
 								<a
