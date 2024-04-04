@@ -37,6 +37,7 @@
 	height: auto;
 	object-fit: contain;
 	border-radius: 10px;
+	aspect-ratio: 2/1;
 }
 .arrasta {
 	position: relative;
