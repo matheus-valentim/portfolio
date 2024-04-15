@@ -31,6 +31,7 @@
 }
 .containerItem {
 	flex-basis: 49%;
+	align-self: flex-start;
 }
 .imagem {
 	width: 100%;
