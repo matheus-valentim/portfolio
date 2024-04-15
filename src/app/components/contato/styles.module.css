@@ -215,14 +215,26 @@
 	.titulo2 small {
 		font-size: 0.8rem;
 	}
+	.wrapper {
+		flex-direction: column;
+		height: 85%;
+	}
 	.qrCode {
 		height: 50%;
 	}
 	.qrCodeContainer small {
 		font-size: 0.6rem;
 	}
+	.qrCodeContainer img {
+		height: 45%;
+		width: 85%;
+	}
 	.qrCode {
-		width: 60%;
+		width: 75%;
+		height: 65%;
+	}
+	.containerSubir {
+		height: 15%;
 	}
 	.subir {
 		height: 40px;
