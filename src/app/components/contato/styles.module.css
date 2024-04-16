@@ -316,7 +316,7 @@
 		height: 70%;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	.titulo h2 {
 		font-size: 1.3rem;
 		margin-bottom: 10px;
@@ -352,12 +352,12 @@
 		font-size: 0.6rem;
 	}
 	.qrCodeContainer img {
-		width: 80%;
+		width: 90%;
 		height: 45%;
 	}
 	.qrCode {
-		width: 65%;
-		height: 60%;
+		width: 75%;
+		height: 55%;
 	}
 	.containerSubir {
 		height: 15%;
